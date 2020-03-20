@@ -74,8 +74,7 @@ h2 {
   line-height: 32px;
   margin: 0 0 24px;
 }
-*+h2{
-
+* + h2 {
   margin-top: 48px;
 }
 
@@ -118,7 +117,33 @@ li ul,
 li ol {
   margin-bottom: 0;
 }
+.c-author {
+  display: flex;
+  align-items: center;
+}
+.c-author__image {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+.c-author__meta {
+  font-size: 14px;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 24px;
+}
 
+.c-author__image{
+width: 56px;
+height: 56px;
+border-radius: 100%;
+margin-right: 16px;
+
+
+}
+.c-author__name,
+.c-author__meta {
+  margin-bottom: 0;
+}
 blockquote {
   font-style: italic;
   font-size: 23px;
