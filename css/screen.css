@@ -213,9 +213,10 @@ a:focus {
 .c-article__header{
   padding: 48px 48px 24px;
 }
-.c-article__author{
+.c-article_author{
   padding-bottom: 24px;
 }
+
 .c-article__body{
   padding: 24px 48px;
 }
@@ -232,6 +233,12 @@ a:focus {
     width: 25%;
     padding-right: 24px;
     display: block;
+    padding-bottom: 24px;
+    
+  }
+  .c-author__image{
+margin-bottom: 16px;
+
   }
   .c-article__content{
     width: 75%;
